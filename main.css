@@ -15,11 +15,22 @@ body
     position: sticky;
     background: #fff;
     margin-bottom: 20px;
-    border-bottom: 3px solid lightgreen;
+    border-bottom: 3px solid black;
     z-index: 2;
 }
 .logo
 {
     height: 40px;
     margin: 5px 10px;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid black !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
 }
